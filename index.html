@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML_Js</title>
+    <link rel="stylesheet" href="main.css" />
+</head>
+<body>
+    <div class="container">
+        <h1>Formulario</h1>
+        <h2>Validação de dados:</h2>
+        <form id="form-numeros">
+            <input type="number" id="campoA" required placeholder="Valor A" />
+            <input type="number" id="campoB" required placeholder="Valor B" />
+            <br>
+            <button id="btn-submeter" type="submit">Submeter</button>
+        </form>
+        <p class="message-success"></p>
+        <p class="error-message">
+            O valor de B     precisa ser maior que o valor de A
+        </p>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
