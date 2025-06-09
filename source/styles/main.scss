@@ -1,0 +1,66 @@
+@use 'reset';
+@use 'variaveis';
+
+body {
+    background-color: variaveis.$corPrincipal;
+}
+
+form {
+    
+    h1 {
+        font-size: 20px;
+        text-align: center;
+        padding: 60px;
+    }
+
+    form {
+        margin-top: 40px;
+    }
+
+    input, textarea, button {
+        display: block;
+        padding: 8px;
+        margin-bottom: 8px;
+        width: 100%;
+        justify-content: center;
+        resize: none;
+    }
+
+    button {
+        background-color: #2ecc71;
+        border: none;
+        text-transform: uppercase;
+        color: #fff;
+        font-weight: bold;
+        font-size: 18px;
+        font-style: italic;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background-color: #27ae60;
+    }
+}
+
+.success-message{
+        background-color: #27ae60;
+        padding: 16px;
+        color: #fff;
+        display: none;
+    }
+
+
+.error-message {
+        font-size: 12px;
+        color: red;
+        margin-bottom: 8px;
+        padding-top:0;
+        display: none;
+    }
+
+input.error {
+        color: red;
+        border-color: red;
+        outline-color: red;
+    }
+
