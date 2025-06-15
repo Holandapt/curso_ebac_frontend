@@ -88,3 +88,18 @@ section {
 .products .product-button:hover {
   background-color: #4cd137;
 }
+footer {
+  background-color: #182C61;
+  padding: 16px 0;
+}
+footer .social-links {
+  display: flex;
+  justify-content: flex-end;
+}
+footer img {
+  margin-left: 4px;
+  transition: all ease 0.3;
+}
+footer img:hover {
+  transform: scale(1.2);
+}

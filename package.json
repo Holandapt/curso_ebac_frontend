@@ -70,5 +70,13 @@
     "tslib": "^2.8.1",
     "which": "^2.0.2"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Holandapt/curso_ebac_frontend.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Holandapt/curso_ebac_frontend/issues"
+  },
+  "homepage": "https://github.com/Holandapt/curso_ebac_frontend#readme",
   "description": ""
 }
