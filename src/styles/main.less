@@ -1,0 +1,96 @@
+@cordeFundo: #0a3d62;
+@corDeTitulo: #f6b93b;
+@corDoTexto:#fad390;
+@fontePrincipal: Lobster, serif;
+@fonteDoTexto: Roboto, sans-serif;
+
+.titulos () {
+    margin: 0 auto;
+    text-align: center;
+    padding: 4px;
+
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+body {
+    background-color: @cordeFundo;
+}
+
+.paceCalc {
+    
+    h1 {
+        .titulos ();
+        color: @corDeTitulo;
+        font-family: @fontePrincipal;
+        border-bottom: 2px solid @corDeTitulo;
+        font-size: 30px;
+    }
+
+    h2 {
+        .titulos ();
+        font-size: 20px;
+        font-family: Roboto Serif, sans-serif;
+        color: @corDoTexto;
+        margin-top: 8px;
+    }
+}
+
+#calc {
+    display: flex;
+    justify-content:center;
+    margin-top: 30px;
+    color: @corDoTexto;
+    font-family: @fonteDoTexto;
+    font-weight: bold;
+    text-align: center;
+
+    #time, #distancia {
+        border-radius: 8px;
+        background-color: transparent;
+        color: @corDeTitulo;
+        font-family: @fontePrincipal;
+        font-weight: bold;
+        font-size: 18px;
+        text-align: center;
+    }
+    
+
+    .tempo {
+        margin-right: 16px;
+    }
+    
+    button {
+        
+        display:flex;
+        border-radius: 30px;
+        margin: 0 auto;
+        margin-left: 8px;
+        cursor: pointer;
+        
+    }
+    button:hover{
+        background-color: transparent;
+        color: @corDeTitulo;
+        cursor: pointer;
+        border: none;
+        font-weight: bold;
+    }
+}
+
+.resultado {
+    .titulos ();
+    color: @corDeTitulo;
+    font-family: @fontePrincipal;
+    font-size: 24px;
+    margin-top: 30px;
+    display: none;
+}
