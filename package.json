@@ -1,0 +1,19 @@
+{
+  "name": "exercicio_mod25",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src --watch -d dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "browserlists": "> 0.25%",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@babel/cli": "^7.28.6",
+    "@babel/core": "^7.28.6",
+    "@babel/preset-env": "^7.28.6"
+  }
+}
